@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(32deg,red,blue);
+    background-attachment: fixed;
+}
+
+#container div {
+    background-color: rgba(240, 255, 255, 0.384);
+}
+
+div>header {
+    text-align: center;
+}
+
+
+main {
+    margin: auto;
+    width: 900px;
+    height: 900px;
+    background: rgba(122, 177, 108, 0.507);
+    border-radius: 5px;
+}
