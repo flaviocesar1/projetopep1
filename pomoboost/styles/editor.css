@@ -1,0 +1,12 @@
+.button {
+    background-color: #155DE9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: 'Arial';
+}
+
+textarea{
+    resize: none;
+}

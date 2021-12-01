@@ -36,12 +36,9 @@ comecar.addEventListener('click',function(){
             clearInterval(interval)
          }
      }    
-     
-          
      display.childNodes[1].innerHTML = minutoAtual+":"+segundoAtual
   }, 1000)
 })
-
 
 parar.addEventListener('click',function(){
     clearInterval(interval)

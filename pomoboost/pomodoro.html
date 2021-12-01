@@ -1,43 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pomodoro</title>
     <link rel="icon" href="assets/imagem/timer.png" type="image/x-icon">
-    <link rel="stylesheet" href="pomo.css">
-    
+    <link rel="stylesheet" href="styles/pomo.css">
+    <audio id="sound" src="assets/alarme/alarme.mp3"></audio>
 </head>
 <body>
-    <h1>Pomodoro</h1>
-    <br>
-    <br> 
-
-    
-    <link rel="stylesheet" href="pomo.css">
-  
-  <audio id="sound" src="assets/alarme/alarme.mp3"></audio>
-  
-  
-  
-  <h2>Minutos:</h2>
+  <h2>PomoBoost</h2>
+  <div>
+  <a href="editor.html" class="botao">Editor</a>
+  </div>
+  <div>
+  <h2 class="criacao">Minutos:</h2>
   <select id="minutos" name="minutos"></select>
-
-  <h2>Segundos:</h2>
+  <h2 class="criacao">Segundos:</h2>
   <select id="segundos" name="segundos"></select>  
-  
   <button id="comecar">Começar</button>
   <button id="parar">Parar</button>
-  
+  </div>
   <div class="container">
     <div id="display">
         <h3></h3>
     </div>
     </div>
-
-    <script src="script.js"></script>
-
+    <script src="scripts/pomodoro.js"></script>
 </body>
 
 </html>
