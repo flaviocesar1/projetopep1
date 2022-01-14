@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #F4CE01;
+  --primary-color: rgba(54, 148, 148, 0.933);
   --secondary-color: #0F0F0B;
 }
 
@@ -107,4 +107,17 @@ body {
 .todo__new-item > input::placeholder {
   font-style: italic;
   font-weight: normal;
+}
+
+.botao {
+  border: 0;
+  background: none;
+  margin: 5px 15px;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  color: black;
+  border-radius: 50px;
+  font-style: italic;
+  cursor: pointer;
+  font-weight: 800;
 }
